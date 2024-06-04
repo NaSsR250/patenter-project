@@ -1,0 +1,390 @@
+:root{
+    --sayan:
+    --white:#FEFAF6;
+    --black:#111111;
+    --beige:#fff5e8;
+}
+.navbar{
+    margin-inline:40px ;
+    display: flex;
+    justify-content: space-between;
+
+}
+.navbar a{
+    background-color: transparent !important;
+    color: var(--white) !important;
+    
+}
+.sign  a{
+    /* background-color: var(--beige) !important; */
+    color: var(--black) !important;
+    
+}
+.navbar .SignUp{
+    border: 1px solid var(--white);
+    padding: 10px 25px ;
+    border-radius: 100vh;
+    display: block;
+    width: fit-content;
+    background-color: transparent;
+}
+.hero-header{
+    position: relative;
+    color: var(--black);
+    height: 120vh;
+    /* background-color: #12182a;
+    background-color: #DAC0A3;
+    background-color: #5f6c80; */
+    
+    /* background: rgb(17,22,40); */
+/* background: linear-gradient(124deg, rgba(17,22,40,1) 17%, rgba(24,53,78,1) 38%, rgba(17,22,40,1) 56%, rgba(19,26,45,1) 75%, rgba(44,71,111,1) 100%); */
+background: rgb(17,22,40);
+background: linear-gradient(124deg, rgba(17,22,40,1) 17%, rgba(24,53,78,1) 38%, rgba(17,22,40,1) 59%, rgba(19,26,45,1) 75%, rgba(42,70,112,1) 100%);
+}
+/* .hero-header .content{
+    flex-basis: 55% !important;
+}
+.hero-header .image{
+    flex: 1 0 45% !important;
+} */
+.hero-header h1{
+    font-family: "NewhouseDTPro-Regular"; 
+    font-size: 50px;
+    line-height: 1;
+    font-weight: 500;
+    color: var(--white);
+    max-width: 1500px;
+    margin: auto;
+    margin-top: 3rem;
+}
+.hero-header p{
+    color: var(--white);
+    opacity: 90%;
+
+    max-width: 800px;
+    margin-inline: auto;
+}
+.hero-header button{
+    color: var(--black);
+    border: none;
+    background-color: var(--white) !important ;
+    border-radius: 100vh;
+    padding: 12px 40px; 
+    margin-top: 2.5rem;
+    font-weight: 700;
+}
+.hero-header .image{
+    align-self: flex-end;
+}
+.hero-header .image img{
+    width: 400px !important;
+    margin-left: auto;
+    height: 450px !important;
+}
+.hero-header .profile img{
+    width: 40px;
+    aspect-ratio: 1/1;
+    object-fit: fill;
+
+    height: 40px;
+    border-radius: 100vh;
+}
+.main-title{
+    font-weight: 600;
+    font-size: 2rem;
+}
+spline-viewer{
+    position: absolute;
+    left: -25%;
+    bottom: -25%;
+    width: 150vw;
+}
+.about{
+    /* background-color: var(--beige); */
+    color: var(--black) !important;
+}
+.about .row{
+    /* gap: 1rem; */
+}
+.about img{
+    border-radius: 30px;
+}
+.about .review{
+    margin-block: 3rem !important;
+    padding-top: 2rem;
+}
+.about a,.btn{
+    border-radius: 100vh !important;
+}
+/* form content */
+.formContent h1{
+    font-size: 80px;
+    margin-bottom: 3rem;
+}
+.formContent .formGroup{
+    display: grid;
+    grid-template-columns:repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+}
+.formContent .inputField {
+    display: grid;
+    position: relative;
+    margin-bottom: 1.5rem;
+}
+.formContent .inputField label{
+    font-weight: 500;
+    font-size: 18px;
+    color: #111;
+}
+.formContent .inputField input {
+    border: none;
+    border-bottom: 1px solid #ced4da;
+    padding-bottom: 10px;
+}
+.formContent .inputField input:focus {
+    border: none;
+    outline: none;
+    border-bottom: 1px solid #111;
+}
+.formContent .flex{
+    margin-top: 1rem;
+    width: 100%;
+    align-items: center ;
+    justify-content: space-between;
+}
+.formContent .flex button{
+    color: var(--white);
+    padding: 10px 30px;
+    border-radius: 100vh;
+    border: none;
+    background-color: var(--dark-blue);
+}
+.flex{
+    display: flex;
+}
+.text-white{
+    color: var(--white) !important;
+}
+.formGroup button a{
+    color: var(--white) !important;
+}
+footer{
+    background-color: var(--beige) !important;
+    color: var(--black) !important;
+}
+footer a{
+    color: var(--black) !important;
+
+}
+/* payment card */
+.card a{
+		color: #28333b ;
+		text-decoration: none ;
+		border-bottom :2px solid rgba(64, 179, 255, .5) ;
+		opacity :.75 ;
+		transition : all .5s ease ;
+    }
+
+.card a:hover{
+			border-bottom : 2px solid rgba(64, 179, 255, 1);
+			opacity : 1 ;
+        }
+.card .field {
+	margin-bottom : 25px;}
+	.card .field.full{
+		width: 100%;
+    }
+	.card .field.half{
+		width :calc(50% - 12px);
+    }
+	.card label{
+		display: block ;
+		text-transform : uppercase;
+		font-size : 12px;
+		margin-bottom : 8px;
+    }
+		
+	.card input{
+		padding :12px ;
+		border-radius :6px ;
+		border :2px solid #e8ebed ;
+		display :block  ;
+		font-size :14px ;
+		width :100% ;
+		box-sizing :border-box ;
+    }
+    .card input:placeholder{
+			color : #e8ebed !important;
+    }
+.card .flex{
+	display :flex ;
+	flex-direction : row wrap;
+	align-items : center;
+}
+	.card .flex.justify-space-between{
+		justify-content : space-between;
+    }
+.card{
+	padding : 50px ;
+	margin :50px auto;
+	max-width: 850px;
+	background: #ffffff;
+	border-radius: 6px;
+	box-sizing :border-box;
+	box-shadow : 0px 24px 60px -1px rgba(37,44,54,0.14);
+}
+	.card .container{
+		max-width: 700px;
+		margin :0 auto;
+    }
+	.card-title{
+		margin-bottom :50px;
+    }
+    .card h2{
+			margin :0;
+    }
+	.card-body .payment-type, .payment-info{
+    margin-bottom :25px;
+    }
+		
+    .card-body .payment-type h4{
+
+        margin :0;
+    }
+	.card-body .payment-type	.types{
+				margin :25px 0;
+			}
+	.card-body .payment-type	.types .type{
+					width :30%;
+					position :relative;
+					background :#f2f4f7;
+					border: 2px solid #e8ebed;
+					padding :25px;
+					box-sizing :border-box;
+					border-radius :6px;
+					cursor :pointer ;
+					text-align :center;
+					transition :all .5s ease; 
+				}
+	.card-body .payment-type	.types .type:hover{
+						border-color :#28333b;
+					}
+	.card-body .payment-type	.types .type:hover .logo, p{
+		color: #28333b;
+		
+	}					
+	.card-body .payment-type	.types .type.selected{
+						border-color :#40b3ff;
+						background :rgba(64, 179, 255, .1);
+	}
+	.card-body .payment-type	.types .type.selected .logo{
+							color : #40b3ff;
+	}
+	.card-body .payment-type	.types .type.selected p{
+		
+							color : #28333b;
+	}
+	.card-body .payment-type	.types .type.selected::after{
+		
+							content :'\f00c';
+							font-family :'Font Awesome 5 Free';
+							font-weight :900;
+							position :absolute; 
+							height :40px;
+							width :40px;
+							top :-21px;
+							right :-21px;
+							background :#fff;
+							border: 2px solid #40b3ff;
+							border-radius: 50%;
+							display :flex ;
+							align-items :center;
+							justify-content :center;
+						}
+						
+						.card-body .payment-type	.types .type .logo,.card-body .payment-type	.types .type p{
+						transition :all .5s ease;
+					}
+					.card-body .payment-type	.types .type .logo{
+						font-size: 48px;
+						color :#8a959c;
+					}
+					.card-body .payment-type	.types .type p{
+						margin-bottom: 0;
+						font-size :10px;
+						text-transform: uppercase;
+						font-weight :600;
+						letter-spacing :.5px;
+						color :#8a959c;
+					}
+		.payment-info .column{
+		width :calc(50% - 25px);
+
+		}
+			
+				
+		.payment-info .title{
+				display :flex; 
+				flex-direction: row ; 
+				align-items :center;
+		}
+		.payment-info .title .num{
+
+				
+					height :24px;
+					width :24px;
+					border-radius :50%;
+					border :2px solid #40b3ff;
+					display :flex;
+					align-items :center;
+					justify-content :center;
+					text-align :center;
+					margin-right :12px;
+					font-size :12px;
+				}
+
+.button{
+	text-transform: uppercase;
+	font-weight :600;
+	font-size :12px;
+	letter-spacing: .5px;
+	padding: 15px 25px;
+	border-radius: 50px;
+	cursor :pointer;
+	transition :all .5s ease;
+	background :transparent;
+	border :2px solid transparent;
+}
+	.button.button-link{
+		padding :0 0 2px;
+		margin :0 25px;
+		border-bottom :2px solid rgba(64, 179, 255, .5);
+		border-radius :0;
+		opacity :.75;
+	}
+	.button.button-link:hover{
+			border-bottom :2px solid rgba(64, 179, 255, 1);
+			opacity :1;
+	}
+	.button.button-primary{
+		background :#40b3ff;
+		color :#fff;
+	}
+	.button.button-primary:hover{
+			background :#218fd9;
+	}
+			
+	.button.button-secondary{
+		background :transparent;
+		border-color :#e8ebed;
+		color :#8a959c;
+	}
+	.button.button-secondary:hover{
+			border-color :#28333b;
+			color :#28333b;
+	}
+
+
+
+
+	
